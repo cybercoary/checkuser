@@ -212,7 +212,7 @@ class CustomHandler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Servidor HTTP com porta personalizável")
-    parser.add_argument('--port', type=int, default=5555, help="Porta do servidor (padrão: 5555)")
+    parser.add_argument('--port', type=int, default=6969, help="Porta do servidor (padrão: 6969)")
     args = parser.parse_args()
 
     porta = args.port
