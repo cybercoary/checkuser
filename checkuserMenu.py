@@ -92,7 +92,7 @@ if __name__ == "__main__":
         print(f"")
 
         print(f" {cor_vermelha}Selecione uma opção :{cor_reset}")
-        print(f" {cor_verde} 1 - Matar porta 6969{cor_reset}")
+        print(f" {cor_verde} 1 - Matar porta 5454{cor_reset}")
         print(f" {cor_verde} 2 - Iniciar checkuser{cor_reset}")
         print(f" {cor_verde} 3 - Parar checkuser{cor_reset}")
         print(f" {cor_verde} 4 - Pegar o Link{cor_reset}")
@@ -106,14 +106,14 @@ if __name__ == "__main__":
         option = input()
 
         if option == "1":
-            print(f"\n {cor_vermelha} Porta 6969 liberada, volte ao menu e inicie o checkUser na porta 6969 {cor_reset}")
-            command = "sudo kill -9 $(lsof -t -i:6969)"
+            print(f"\n {cor_vermelha} Porta 5454 liberada, volte ao menu e inicie o checkUser na porta 5454 {cor_reset}")
+            command = "sudo kill -9 $(lsof -t -i:5454)"
             subprocess.run(command, shell=True)
             print(f"{cor_vermelha}\nPressione a tecla enter para voltar ao menu\n{cor_reset}")
             input()
 
         elif option == "2":
-            print(f" {cor_vermelha} Observação: Para funcionar com security use a porta 6969 ! {cor_reset}")
+            print(f" {cor_vermelha} Observação: Para funcionar com security use a porta 5454 ! {cor_reset}")
             adicionar_ao_cache('porta', input("\n Digite a porta que deseja usar e de enter : "))
             os.system('clear')
             print(f'Porta escolhida: {obter_do_cache("porta")}')
@@ -149,23 +149,23 @@ if __name__ == "__main__":
                 print("")
                 print(f" {cor_amarela}Link Conecta4G/5G abaixo :{cor_reset} ")
                 print("")
-                print(f"  {cor_verde}https://atlas.cybercoari.com.br/checkuser.php?url=http://{ip}:{porta}/checkUser{cor_reset} ")
+                print(f"  {cor_verde}https://cybercoari.com.br/checkuser.php?url=http://{ip}:{porta}/checkUser{cor_reset} ")
                 print("")
                 print(f" {cor_amarela}Link DtunnelMod abaixo :{cor_reset} ")
                 print("")
-                print(f"  {cor_verde}https://atlas.cybercoari.com.br/checkuser.php?url=http://{ip}:{porta}/dtmod{cor_reset}  ")
+                print(f"  {cor_verde}https://cybercoari.com.br/checkuser.php?url=http://{ip}:{porta}/dtmod{cor_reset}  ")
                 print("")
                 print(f" {cor_amarela}Link GltunnelMod abaixo :{cor_reset} ")
                 print("")
-                print(f"  {cor_verde}https://atlas.cybercoari.com.br/checkuser.php?url=http://{ip}:{porta}/gl{cor_reset} ")
+                print(f"  {cor_verde}https://cybercoari.com.br/checkuser.php?url=http://{ip}:{porta}/gl{cor_reset} ")
                 print("")
                 print(f" {cor_amarela}Link AnyVpnMod abaixo :{cor_reset} ")
                 print("")
-                print(f"  {cor_verde}https://atlas.cybercoari.com.br/checkuser.php?url=http://{ip}:{porta}/anymod{cor_reset} ")
+                print(f"  {cor_verde}https://cybercoari.com.br/checkuser.php?url=http://{ip}:{porta}/anymod{cor_reset} ")
                 print("")
                 print(f" {cor_amarela}Link AtxTunnel abaixo :{cor_reset} ")
                 print("")
-                print(f"  {cor_verde}https://atlas.cybercoari.com.br/checkuser.php?url=http://{ip}:{porta}/atx{cor_reset} ")
+                print(f"  {cor_verde}https://cybercoari.com.br/checkuser.php?url=http://{ip}:{porta}/atx{cor_reset} ")
                 print("")
                 input(f" {cor_vermelha} Pressione a tecla enter para voltar ao menu {cor_reset}")
             else:
@@ -192,7 +192,7 @@ if __name__ == "__main__":
             commands = [
                 "rm -rf /root/checkuser/",
                 "rm -f /usr/local/bin/iniciar",
-                "sudo kill -9 $(lsof -t -i:6969)",
+                "sudo kill -9 $(lsof -t -i:5454)",
                 "pkill -9 -f /root/checkuser/checkuser.py"
                 "cd"
             ]
