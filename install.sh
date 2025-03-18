@@ -19,7 +19,7 @@ echo -e "\033[1;32m• \033[1;32mDICA! \033[1;37mULTILIZE O TEMA DARK EM SEU TER
 echo -e "\033[1;37m  UMA MELHOR EXPERIÊNCIA E VISUALIZACAO DO MESMO!\033[0m"
 echo ""
 echo -e "\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "            \033[1;37m • \033[1;32mEDIT:@donomodderajuda\033[1;37m •           "
+echo -e "            \033[1;37m • \033[1;32mEDIT:@donocybercoary\033[1;37m •           "
 echo -e "\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
 #-----------------------------------------------------------------------------------------------------------------
@@ -32,7 +32,7 @@ pkill -9 -f "/root/checkuser/checkuser.py"
 
 
 apt update && apt upgrade -y && apt install python3 git -y
-git clone https://github.com/modderajuda/checkuser.git
+git clone https://github.com/cybercoary/checkuser.git
 chmod +x /root/checkuser/checkuserMenu.sh
 ln -s /root/checkuser/checkuserMenu.sh /usr/local/bin/iniciar
 

@@ -2,9 +2,9 @@ Um simples check de usuario feito em python que funciona com varios aplicativos,
 
 para fazer a instalação rode o seguinte comando !
 
-```bash <(wget -qO- https://raw.githubusercontent.com/cybercoary/checkuser/main/install.sh)```
+``````
+```bash <(wget -qO- https://raw.githubusercontent.com/cybercoary/checkuser/main/install.sh)
+``````
 
-
-Feito por @UlekBR e melhorado por @donomodderajuda
 
 Para iniciar o checkuser menu: ```iniciar```
